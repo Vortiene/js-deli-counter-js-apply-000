@@ -1,7 +1,8 @@
 var katzDeliLine = [];
 
+ let i = 0
 function takeANumber(){
-  let i = 0; i++
+ i++
   return i
 }
 function nowServing(katzDeliLine){
