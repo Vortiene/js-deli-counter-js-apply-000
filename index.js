@@ -1,9 +1,8 @@
 var katzDeliLine = [];
 
-let i = 0
-function takeANumber(){
- i++
-  return i
+function takeANumber(katzDeliLine, Name){
+  katzDeliLine.push(Name)
+  return "Welcome, "+Name+"."+" You are number "+(katzDeliLine.length)+" in line."
 }
 function nowServing(katzDeliLine){
 if (katzDeliLine.length>0) {
