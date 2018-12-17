@@ -1,6 +1,6 @@
 var katzDeliLine = [];
 
- let i = 0
+let i = 0
 function takeANumber(){
  i++
   return i
